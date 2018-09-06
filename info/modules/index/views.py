@@ -9,6 +9,7 @@ def index():
     return render_template('news/index.html')
 
 
+
 @index_blu.route('/index')
 def index():
     return render_template('news/index.html')
